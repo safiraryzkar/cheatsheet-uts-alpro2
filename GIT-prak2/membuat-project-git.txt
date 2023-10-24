@@ -1,0 +1,45 @@
+Membuat project git 
+
+1. buat directory baru di folder
+
+code:
+mkdir my_project (ini buat directory baru)
+cd my_project (masuk ke dalam directorynya)
+
+code:
+git init (didalam directorynya melakukan inisialisasi)
+
+2. menambahkan remote repository
+
+code: 
+git remote add origin <link_repo> (menghubungkan repository github)
+
+3. ngecek udah 
+
+code:
+git remote -v
+
+4. membuat folder kosong
+
+code: 
+touch helloworld.py
+
+5. nambahin ke github
+
+code:
+git add helloworld.py
+
+6. commit
+
+code:
+git commit -m "Tambah file helloworld.py"
+
+7. push 
+
+code:
+git push -u origin master 
+
+8. clone repository ke folder lokal
+
+code:
+git clone <link_repo>
